@@ -1,9 +1,9 @@
 import TodoList from "@/app/todolist/todolist";
 
-async function Home() {
+async function TodoListPage() {
   return (
       <TodoList />
   );
 }
 
-export default Home;
+export default TodoListPage;

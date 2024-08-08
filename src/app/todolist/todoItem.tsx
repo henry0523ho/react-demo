@@ -30,9 +30,9 @@ function TodoItem(props: { todo: ITodoDataProps }) {
         </p>
       </button>
       <div>
-        <button>
+        {/* <button>
           <MdEdit className="inline rounded-lg text-secondary text-2xl cursor-pointer hover:text-text hover:bg-secondary mr-2" />
-        </button>
+        </button> */}
         <button formAction={deleteTodoAction}>
           <MdDelete className="inline rounded-lg text-secondary text-2xl hover:text-text hover:bg-secondary" />
         </button>

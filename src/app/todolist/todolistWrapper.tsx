@@ -19,7 +19,7 @@ async function TodolistWrapper() {
     return ret;
   });
   return (
-    <div className="w-4/5 bg-secondary p-8 rounded-lg mt-6 text-center">
+    <div className="w-2/5 bg-secondary p-8 rounded-lg mt-6 text-center">
       <h1 className="text-4xl text-text p-2">代辦事項</h1>
       <CreateForm/>
       {todosProps.map((todo) => {

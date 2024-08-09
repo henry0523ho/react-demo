@@ -2,8 +2,7 @@
 interface ITodoDataProps {
   content: string,
   _id: string,
-  completed: boolean,
-  isEditing: boolean
+  completed: boolean
 }
 
 export default ITodoDataProps;

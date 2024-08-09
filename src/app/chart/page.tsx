@@ -1,6 +1,5 @@
 import dynamic from "next/dynamic";
 
-// 動態導入圖表組件，禁用 SSR
 const MyChart = dynamic(() => import("@/app/chart/myChart"), {
   ssr: false,
 });

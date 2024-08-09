@@ -1,4 +1,4 @@
-import { MdDelete, MdEdit } from "react-icons/md";
+import { MdDelete } from "react-icons/md";
 import ITodoDataProps from "@/lib/datatype/ITodoDataProps";
 import { deleteTodo, updateTodoContent } from "@/lib/mongo/todoDB";
 import { revalidatePath } from "next/cache";
@@ -30,9 +30,6 @@ function TodoItem(props: { todo: ITodoDataProps }) {
         </p>
       </button>
       <div>
-        {/* <button>
-          <MdEdit className="inline rounded-lg text-secondary text-2xl cursor-pointer hover:text-text hover:bg-secondary mr-2" />
-        </button> */}
         <button formAction={deleteTodoAction}>
           <MdDelete className="inline rounded-lg text-secondary text-2xl hover:text-text hover:bg-secondary" />
         </button>

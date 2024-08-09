@@ -11,7 +11,7 @@ import {
   ResponsiveContainer,
 } from "recharts";
 
-// 模擬數據
+
 const data = [
   { date: "20240809", valueA: 4000, valueB: 2400, amt: 2400 },
   { date: "20240808", valueA: 3000, valueB: 1398, amt: 2210 },
